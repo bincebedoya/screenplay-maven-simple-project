@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 328695712,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WikipediaSearchStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Search a single word",
+        "description": "",
+        "id": "wikipedia-searcher;search-a-single-word;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34266286163,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "That I am in wikipedia home page",
+            "match": {
+              "location": "WikipediaSearchStepDefinition.thatIAmInWikipediaHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8733059982,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search the word \"Milk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Milk",
+                  "offset": 19
+                }
+              ],
+              "location": "WikipediaSearchStepDefinition.iSearchTheWord(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1842430750,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I hope to see the title \"Milk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Milk",
+                  "offset": 25
+                }
+              ],
+              "location": "WikipediaSearchStepDefinition.iHopeToSeeTheTitle(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10226387,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WikipediaSearchStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search a single word",
+        "description": "",
+        "id": "wikipedia-searcher;search-a-single-word;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10321465700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "That I am in wikipedia home page",
+            "match": {
+              "location": "WikipediaSearchStepDefinition.thatIAmInWikipediaHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4370588879,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search the word \"Egg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Egg",
+                  "offset": 19
+                }
+              ],
+              "location": "WikipediaSearchStepDefinition.iSearchTheWord(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 650021202,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I hope to see the title \"Egg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Egg",
+                  "offset": 25
+                }
+              ],
+              "location": "WikipediaSearchStepDefinition.iHopeToSeeTheTitle(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Wikipedia Searcher",
+    "description": "As a Wikipedia user\nI want to search\nTo learn something new ",
+    "id": "wikipedia-searcher",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/co/michael/resources/features/wikipedia_search.feature",
+    "tags": []
+  }
+]
